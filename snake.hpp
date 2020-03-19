@@ -30,7 +30,7 @@ public:
     String(std::string content,int x,int y,int size=28)
     {
         this->content=content;
-        if(!font.loadFromFile("arial.ttf")){}
+        if(!font.loadFromFile("stocky.ttf")){}
             text.setFont(font);
             text.setString(content+":");
             text.setCharacterSize(size);
